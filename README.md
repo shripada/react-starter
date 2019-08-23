@@ -1,2 +1,2 @@
 # react-starter
-The base boiler plate project that has all modern javascript tooling setup
+The base boiler-plate that has all modern javascript tooling setup needed for a react js project.
