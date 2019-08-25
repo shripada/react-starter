@@ -40,6 +40,10 @@
     "src/**/*.scss": [
       "npm run  lint:scss:fix",
       "git add"
+    ],
+    "src/**/*.spec.js": [
+      "npm run test",
+      "git add"
     ]
   },
 
