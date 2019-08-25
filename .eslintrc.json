@@ -1,0 +1,32 @@
+{
+   "parser":"babel-eslint",  
+  "env": {
+        "browser": true,
+        "es6": true,
+        "commonjs": true,
+        "node":true,
+        "jest":true
+    },
+    "settings": {
+      "react": {
+        "version":"detect"
+      }
+    },
+    "extends": ["eslint:recommended", "react-app"],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "jsx-a11y"
+    ]
+
+}

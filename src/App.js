@@ -1,11 +1,12 @@
 import React from 'react'
 import { hot } from 'react-hot-loader'
 const Warning = React.lazy(() => import('./warning'))
-const a = 10;
+
 class App extends React.Component {
   state = {
     count: 0
   }
+
   render() {
     return (
       <React.Fragment>
