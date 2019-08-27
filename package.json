@@ -27,7 +27,6 @@
       "pre-commit": "lint-staged"
     }
   },
-
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "prettier --single-quote --write",
@@ -46,7 +45,6 @@
       "git add"
     ]
   },
-
   "author": "Shripada <shripada@robosoftin.com>",
   "license": "ISC",
   "bugs": {
@@ -81,6 +79,7 @@
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
     "react-axe": "^3.2.0",
+    "react-test-renderer": "^16.9.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.39.2",
     "webpack-bundle-analyzer": "^3.4.1",
