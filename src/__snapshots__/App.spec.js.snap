@@ -1,7 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<h1>
-   Hello World there it is
-</h1>
+Array [
+  <h1>
+     
+    Hello World there it is commit should be rejected ok, state should not be lost
+  </h1>,
+  <button
+    onClick={[Function]}
+  >
+     
+    Add
+     
+  </button>,
+  <button
+    onClick={[Function]}
+  >
+     
+    Sub
+     
+  </button>,
+  <h2
+    style={
+      Object {
+        "color": "red",
+      }
+    }
+  >
+    Count = 
+    0
+  </h2>,
+]
 `;

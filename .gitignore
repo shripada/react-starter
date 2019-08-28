@@ -62,3 +62,8 @@ typings/
 
 # webpack
 dist
+
+
+# ---- SonarQube
+.sonar/
+.scannerwork/
