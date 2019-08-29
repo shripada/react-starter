@@ -1,6 +1,3 @@
-# Flipkart Insurance
-
-This repository is of the insurance mobile website that will be integrated in the Flipkart mobile app. 
 
 ## Tools used
 ### Framework
